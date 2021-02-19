@@ -5,13 +5,13 @@
  */
 /* Java Thread extending thread */
 
-public class Multi extends Thread {
+public class MultiUsingThread extends Thread {
     public void run() {
         System.out.println("Thread is running");
     }
 
     public static void main(String[] args) {
-        Multi t1 = new Multi();
+        MultiUsingThread t1 = new MultiUsingThread();
         t1.start();
     }
 }
